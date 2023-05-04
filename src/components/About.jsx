@@ -3,14 +3,14 @@ import React from "react";
 function About(){
     return(
         <>
-        <div class="flex items-center justify-center py-4 md:py-8 flex-wrap">
+        <div class="flex items-center justify-center  py-4 md:py-8 flex-wrap">
         <h1 class="font-bold text-2xl md:text-4xl lg:text-5xl font-heading text-blue-600">
           About Us
         </h1>
         </div>
           
 <div class="py-16 bg-white">
-    <div  class="container m-auto px-6 space-y-8 text-gray-500 md:px-12 lg:px-20">
+    <div  class="container m-auto mt-12 px-6 space-y-8 text-gray-500 md:px-12 lg:px-20">
         <div class="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
             <div class="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
                 <h1 class="text-4xl text-red-600 font-bold md:text-5xl">Who <span class="text-blue-500">We</span> <span class="text-red-600">Are</span></h1>
